@@ -5,6 +5,11 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphicStream", "GraphicStream\GraphicStream.vcxproj", "{F0EBA1AC-1D78-4EAE-8D60-8F8934EABC07}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTests", "UnitTests\UnitTests.vcxproj", "{C9047AB2-AAD3-466B-8B59-805815B4F419}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F0EBA1AC-1D78-4EAE-8D60-8F8934EABC07} = {F0EBA1AC-1D78-4EAE-8D60-8F8934EABC07}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +20,10 @@ Global
 		{F0EBA1AC-1D78-4EAE-8D60-8F8934EABC07}.Debug|Win32.Build.0 = Debug|Win32
 		{F0EBA1AC-1D78-4EAE-8D60-8F8934EABC07}.Release|Win32.ActiveCfg = Release|Win32
 		{F0EBA1AC-1D78-4EAE-8D60-8F8934EABC07}.Release|Win32.Build.0 = Release|Win32
+		{C9047AB2-AAD3-466B-8B59-805815B4F419}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C9047AB2-AAD3-466B-8B59-805815B4F419}.Debug|Win32.Build.0 = Debug|Win32
+		{C9047AB2-AAD3-466B-8B59-805815B4F419}.Release|Win32.ActiveCfg = Release|Win32
+		{C9047AB2-AAD3-466B-8B59-805815B4F419}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

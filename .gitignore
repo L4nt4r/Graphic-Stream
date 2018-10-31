@@ -37,3 +37,5 @@
 *.idb
 *.pdb
 *.tlog
+*.ipch
+*.cache
