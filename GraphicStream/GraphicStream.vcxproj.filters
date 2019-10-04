@@ -18,9 +18,18 @@
     <ClCompile Include="GraphicStreamMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MainWindowHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicPipeline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GraphicStreamMain.h">
+    <ClInclude Include="MainWindowHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicPipeline.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
